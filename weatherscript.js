@@ -30,7 +30,7 @@ function cityRtn(city) {
         currentWeather.empty();
         var city = $(`<div>`);
         var icon = response.weather[0].icon;
-        city.append(`<h1>${response.name} (${moment().format('M/D/YYYY')})<img src="http://openweathermap.org/img/wn/${icon}@2x.png"></h1>`);
+        city.append(`<h1>${response.name} (${moment().format('M/D/YYYY')})<img src="https://openweathermap.org/img/wn/${icon}@2x.png"></h1>`);
         city.append(`<h5>Temperature: ${response.main.temp}&#8457;</h5>`);
         city.append(`<h5>Humidity: ${response.main.humidity}%</h5>`);
         city.append(`<h5>Wind Speed: ${response.wind.speed} MPH</h5>`);
@@ -48,7 +48,7 @@ function cityRtn(city) {
             .forEach(entry => {
                 var dayCard = $(`<div class="card bg-primary"><div class="card-body text-left">`);
                 dayCard.append(`<h5>${moment(entry.dt_txt).format('M/D/YYYY')}</h5>`);
-                dayCard.append(`<img src="http://openweathermap.org/img/wn/${entry.weather[0].icon}@2x.png">`)
+                dayCard.append(`<img src="https://openweathermap.org/img/wn/${entry.weather[0].icon}@2x.png">`)
                 dayCard.append(`<p>Temperature: ${entry.main.temp}&#8457;</p>`);
                 dayCard.append(`<p>Humidity: ${entry.main.humidity}%</p>`);
                 foreCast.append(dayCard);
@@ -60,7 +60,7 @@ function cityRtn(city) {
 
 function openWeatherURL(type, val) {
     var API_KEY = "&appid=23911dd86712254cc5b8430fb2b752dd";
-    var BASE_URL = "http://api.openweathermap.org/data/2.5/";
+    var BASE_URL = "https://api.openweathermap.org/data/2.5/";
     var query;
 
     switch (type) {

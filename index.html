@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col bg-dark center text-center" style="color: white;">
+        <h1>Weather Dashboard</h1>
+      </div>
+    </div>
+    <div class="row" style="padding-top: 15px;">
+      <div class="col-md-4">
+        <div class="bg-light">
+
+          <div class="form-inline md-form mr-auto mb-4">
+            <input id="input" class="form-control mr-sm-2" type="text" placeholder="Search by City" aria-label="Search">
+            <button id="submit" class="btn btn-primary" type="submit"><i class='fas fa-search'></i></button>
+          </div>
+          <section>
+            <div id="left-rail" class="btn-group-vertical container-fluid ">
+
+            </div>
+          </section>
+        </div>
+
+
+      </div>
+      <div class="col-md-8">
+        <div id="current" class="container p-3 my-3 border bg-light">
+
+        </div>
+        <div class="container container-fluid">
+          <h1>5-Day Forecast</h1>
+          <div id="forecast" class="card-deck">
+            <div class="card bg-primary">
+              <div class="card-body text-left">
+                <p class="card-text">Some text inside the first card</p>
+                <img src="http://openweathermap.org/img/wn/02n@2x.png"></img>
+                <p class="card-text">Some more text to increase the height</p>
+                <p class="card-text">Some more text to increase the height</p>
+              </div>
+            </div>
+            <div class="card bg-primary">
+              <div class="card-body text-left">
+                <p class="card-text">Some text inside the first card</p>
+                <img src="http://openweathermap.org/img/wn/02n@2x.png"></img>
+                <p class="card-text">Some more text to increase the height</p>
+                <p class="card-text">Some more text to increase the height</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./weatherscript.js"></script>
+
+</body>
+
+</html>

@@ -8,3 +8,6 @@ Weather forcast dashboard leveraging:
 Used the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. This stores users recent searches in local storage so they can quickly reference those cities.
 
 contact: metropolis.4488@gmail.com
+
+![Screenshot]
+(https://github.com/Metropolis488/Personal_Profile/blob/master/assets/weather_app.png)

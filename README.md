@@ -9,5 +9,6 @@ Used the [OpenWeather API](https://openweathermap.org/api) to retrieve weather d
 
 contact: metropolis.4488@gmail.com
 
-![Image]
-(https://github.com/Metropolis488/Personal_Profile/master/assets/weather_app.png)
+![Image](https://github.com/Metropolis488/Personal_Profile/master/assets/weather_app.png)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)

@@ -11,4 +11,4 @@ contact: metropolis.4488@gmail.com
 
 ![Image](https://github.com/Metropolis488/Personal_Profile/blob/master/assets/weather_app.png)
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+

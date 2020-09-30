@@ -10,4 +10,4 @@ Used the [OpenWeather API](https://openweathermap.org/api) to retrieve weather d
 contact: metropolis.4488@gmail.com
 
 ![Image]
-(https://github.com/Metropolis488/Personal_Profile/blob/master/assets/weather_app.png)
+(https://github.com/Metropolis488/Personal_Profile/master/assets/weather_app.png)
